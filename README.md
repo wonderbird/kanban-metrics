@@ -15,9 +15,22 @@ pip install -r requirements.txt
 
 ## Run
 
+You can run the application from the command line. Then it will open the charts in separate application windows.
+
 ```shell
-main.py
+# Print usage information
+./main.py --help
+
+# Plot diagrams for the data in ./data/sample.csv
+./main.py ./data/sample.csv
 ```
+
+[./data/sample.csv](./data/sample.csv) is the path to the metrics - the linked file contains some sample data.
+
+As an alternative, run the application from inside [JetBrains PyCharm](https://www.jetbrains.com/pycharm/). You can
+configure the data file to be used in the run parameters. In the [Scientific
+Mode](https://www.jetbrains.com/help/pycharm/matplotlib-tutorial.html#run), the plots will be shown in the SciView /
+Plots area.
 
 ## Test
 

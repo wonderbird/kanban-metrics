@@ -1,0 +1,11 @@
+ID;Work Item Type;Title;Committed;Started;Done
+1;Type A;First task;15.12.22 16:00;16.12.22 08:00;17.12.22 16:00
+2;Type A;Second task;15.12.22 16:00;16.12.22 12:00;19.12.22 16:00
+3;Type A;Third task;16.12.22 10:00;17.12.22 09:00;17.12.22 14:00
+4;Type A;Fourth task;16.12.22 10:00;17.12.22 09:00;17.12.22 14:00
+5;Type B;Fifth task;17.12.22 11:00;17.12.22 13:00;
+6;Type B;Sixth task;17.12.22 11:00;17.12.22 15:00;
+7;Type B;Seventh task;19.12.22 08:00;;
+8;Type C;Eighth task;19.12.22 08:00;;
+9;Type C;Ninth task;19.12.22 12:00;;
+10;Type C;Tenth task;19.12.22 12:00;;
