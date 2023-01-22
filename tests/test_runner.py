@@ -4,9 +4,8 @@ from tests.histogram_stub import HistogramStub
 
 
 def test_main_calls_plot_with_parsed_data():
-    args = ConfigurableArgumentParser().parse_custom_args(["data/sample.csv"])
     histogram = HistogramStub()
 
-    Runner(histogram).run(args)
+    Runner(ConfigurableArgumentParser("data/sample.csv"), histogram).run()
 
     assert histogram.last_bin == 9
