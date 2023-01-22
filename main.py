@@ -5,5 +5,5 @@ from src.kanban_metrics.histogram_plotter import HistogramPlotter
 from src.kanban_metrics.runner import Runner
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     Runner(CommandLineArgumentParser(), HistogramPlotter()).run()
