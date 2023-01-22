@@ -8,4 +8,5 @@ def test_main_calls_plot_with_parsed_data():
 
     Runner(ConfigurableArgumentParser("data/sample.csv"), histogram).run()
 
-    assert histogram.last_bin == 9
+    assert histogram.min_lead_time == 2
+    assert histogram.max_lead_time == 5
