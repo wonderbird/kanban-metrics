@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kanban_metrics_wonderbird"
+version = "0.0.1"
+authors = [
+  { name="Stefan Boos", email="kontakt@boos.systems" },
+]
+description = "Python scripts to generate Kanban metrics and visualizations from CSV input"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: The Unlicense (Unlicense)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/wonderbird/kanban-metrics"
+"Bug Tracker" = "https://github.com/wonderbird/kanban-metrics/issues"

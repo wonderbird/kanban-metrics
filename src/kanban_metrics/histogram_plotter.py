@@ -1,4 +1,4 @@
-from histogram import Histogram
+from src.kanban_metrics.histogram import Histogram
 
 
 class HistogramPlotter(Histogram):
