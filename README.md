@@ -1,6 +1,7 @@
 # Kanban Metrics
 
 [![Python Build Status Badge](https://github.com/wonderbird/kanban-metrics/workflows/Python%20application/badge.svg)](https://github.com/wonderbird/kanban-metrics/actions?query=workflow%3A%22Python%20application%22)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 Python scripts to generate Kanban metrics and visualizations from CSV input.
 
