@@ -20,3 +20,8 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/wonderbird/kanban-metrics"
 "Bug Tracker" = "https://github.com/wonderbird/kanban-metrics/issues"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]

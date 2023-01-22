@@ -12,7 +12,11 @@ an [Open Source License](https://www.jetbrains.com/community/opensource/) for th
 ## Prerequisites
 
 ```shell
+# Install dependencies
 pip install -r requirements.txt
+
+# Install this package in editable mode to allow editing and rerunning the tests
+pip install --editable .
 ```
 
 ## Run
